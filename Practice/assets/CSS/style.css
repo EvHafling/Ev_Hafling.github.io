@@ -1,0 +1,27 @@
+#Head1{
+   background-color: darkgreen;
+   float: none;
+   height: 100px;
+}
+
+#NAV {
+    background-color: seagreen;
+    float: left;
+    height: 600px;
+    width: 120px;
+}
+
+#MAIN {
+    background-color: grey;
+    float: none;
+    width: 552px;
+    height: 600px;
+
+}
+
+#FOOT {
+    background-color: black;
+    float: none;
+    width: 552px;
+    height: 90px;
+}
