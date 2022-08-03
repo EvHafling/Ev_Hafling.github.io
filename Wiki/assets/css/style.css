@@ -9,11 +9,12 @@
      background-color: rgb(221, 221, 221);
      float: left;
      height: 600px;
-     width: 120px;
+     width: 200px;
  }
  
  #MAIN {
      background-color: rgb(197, 197, 197);
+     width: 100%;
   
  }
 
@@ -22,7 +23,8 @@
     width: 600px;
     height: 240px;
     margin: 1cm;
-    margin-left: 10%;
+    margin-left: 15%;
+   
     
  }
 
@@ -30,7 +32,11 @@
     background-color: rgb(123, 105, 255);
     height: 50px;
     text-align: center;
+    padding-top: 3%;
     
+ }
+ #sec1 p{
+   margin: 1cm;
  }
 
  #sec2 {
@@ -38,21 +44,25 @@
     height: 240px;
     width: 600px;
     margin: 1cm;
-    margin-left: 10%;
+    margin-left: 15%;
  }
 
  #sec2 h1 {
     background-color: rgb(179, 61, 175);
     height: 50px;
     text-align: center;
-    
+    padding-top: 3%;
  }
+ #sec2 p{
+   margin: 1cm;
+ }
+
  #sec3 {
     background-color: rgb(153, 138, 212);
     width: 600px;
     height: 240px;
     margin: 1cm;
-    margin-left: 55%;
+    margin-left: 58%;
     
  }
 
@@ -60,7 +70,10 @@
     background-color: rgb(123, 105, 255);
     height: 50px;
     text-align: center;
-    
+    padding-top: 3%;
+ }
+ #sec3 p{
+   margin: 1cm;
  }
 
  #sec4 {
@@ -68,18 +81,29 @@
     height: 240px;
     width: 600px;
     margin: 1cm;
-    margin-left: 55%;
-    margin-bottom: 50%;
+    margin-left: 58%;
+    
  }
 
  #sec4 h1 {
     background-color: rgb(179, 61, 175);
     height: 50px;
     text-align: center;
-    
+    padding-top: 3%;
+ }
+
+ #sec4 p{
+   margin: 1cm;
  }
 
  #FOOT {
 background-color: slategrey;
 height: 135px;
+ }
+
+
+
+
+ #H2 {
+   text-align: center;
  }
