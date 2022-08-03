@@ -1,28 +1,82 @@
 #Head1{
-    background-color: darkgreen;
-    float: none;
+    background-color: rgb(216, 216, 216);
     height: 100px;
-    width: 552px;
+   
+    
  }
  
  #NAV {
-     background-color: seagreen;
+     background-color: rgb(221, 221, 221);
      float: left;
      height: 600px;
      width: 120px;
  }
  
  #MAIN {
-     background-color: grey;
-     float: none;
-     width: 552px;
-     height: 600px;
- 
+     background-color: rgb(197, 197, 197);
+  
+ }
+
+ #sec1 {
+    background-color: rgb(239, 173, 229);
+    width: 490px;
+    height: 240px;
+    width: 600px;
+    margin: 1cm;
+    float: ;
+    
+ }
+
+ #sec1 h1 {
+    background-color: hotpink;
+    height: 50px;
+    text-align: center;
+    
+ }
+
+ #sec2 {
+    background-color: rgb(166, 226, 174);
+    height: 240px;
+    width: 600px;
+    margin: 1cm;
+ }
+
+ #sec2 h1 {
+    background-color: rgb(61, 179, 116);
+    height: 50px;
+    text-align: center;
+    
+ }
+
+ #sec3 {
+    background-color: rgb(177, 166, 226);
+    height: 240px;
+    width: 490px;
+    margin: 1cm;
+    float: left;
+  
+    
+    
+ }
+
+ #sec3 h1 {
+    background-color: rgb(140, 88, 214);
+    height: 50px;
+    text-align: center;
+ }
+
+ #sec4 {
+    background-color: rgb(225, 137, 137);
+    height: 240px;
+    width: 490px;
+    margin: 1cm;
+    float: left;
+    
+    
  }
  
- #FOOT {
-     background-color: black;
-     float: none;
-     width: 552px;
-     height: 90px;
+ #sec4 h1 {
+    background-color: rgb(196, 47, 55);
+    height: 50px;
+    text-align: center;
  }
