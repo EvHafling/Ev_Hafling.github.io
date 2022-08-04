@@ -1,8 +1,13 @@
-li{ 
-    display: inline;
-}
-
 nav {
     background-color:mediumseagreen;
 
+}
+
+li{ 
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
 }
