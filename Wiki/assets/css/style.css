@@ -15,12 +15,33 @@
  #MAIN {
      background-color: rgb(197, 197, 197);
      width: 100%;
-     height: 100px;
+     height: 600px;
   
  }
 
 #div1{
-   background-color: blue;
+   background-color: rgb(135, 135, 231);
+   width: 400px;
+   height: 250px;
+   float: left;
+}
+
+#div2{
+   background-color: rgb(135, 135, 231);
+   width: 400px;
+   height: 250px;
+   float: left;
+}
+
+#div3{
+   background-color: rgb(135, 135, 231);
+   width: 400px;
+   height: 250px;
+   float: left;
+}
+
+#div4{
+   background-color: rgb(135, 135, 231);
    width: 400px;
    height: 250px;
    float: left;
@@ -28,7 +49,7 @@
 
 
 #FOOT {
-   background-color: whitesmoke;
+   background-color: rgb(74, 74, 74);
    width: auto;
    height: 150px;
 }
