@@ -1,6 +1,14 @@
+
+
+#PAGE{
+   position: relative;
+   height: 100%;
+}
+
+
 #Head1{
     background-color: rgb(216, 216, 216);
-    height: 100px;
+    height: 150px;
    
     
  }
@@ -15,7 +23,8 @@
  #MAIN {
      background-color: rgb(197, 197, 197);
      width: 100%;
-     height: 600px;
+     height: 100%;
+     position: relative;
   
  }
 
@@ -51,11 +60,21 @@
    margin: 1cm;
 }
 
+#div5{
+   background-color: rgb(152, 215, 76);
+   width: 460px;
+   height: 230px;
+   float: left;
+   margin: 1cm;
+   margin-left: 16.6%;
+}
+
+
 
 #FOOT {
    background-color: rgb(74, 74, 74);
    width: auto;
-   height: 150px;
+   height: 200px;
    
 }
 
@@ -90,6 +109,22 @@
    height: 50px;
    margin: 3%;
  }
+ 
+ #div5 h1{
+   background-color: mediumseagreen;
+   text-align: center;
+   height: 50px;
+   margin: 3%;
+ }
+
+ footer{
+   background-color: yellowgreen;
+   width: 100%;
+   height: 60px;
+   position: absolute;
+   top: 100%;
+ }
+
 
  #H2{
    text-align: center;
@@ -101,6 +136,7 @@
    text-align: center;
    margin-left: 1cm;
    margin-bottom: 10%;
+   te
  }
 
  a{
@@ -115,3 +151,10 @@
    margin: 2%;
    text-align: center;
  }
+
+ img{
+   width: 100px;
+   height: 100px;
+   margin: 3%;
+ }
+
