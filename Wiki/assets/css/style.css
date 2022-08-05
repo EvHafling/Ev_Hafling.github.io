@@ -93,4 +93,25 @@
 
  #H2{
    text-align: center;
+   padding: 2%;
+   margin-left: 1cm;
+ }
+
+ #H4{
+   text-align: center;
+   margin-left: 1cm;
+   margin-bottom: 10%;
+ }
+
+ a{
+   text-decoration: none;
+ }
+ 
+ ul{
+   list-style: none;
+ }
+
+ p{
+   margin: 2%;
+   text-align: center;
  }
