@@ -1,0 +1,37 @@
+body {
+    height: 1500px;
+    position: relative;
+}
+
+li{ 
+    display: inline;
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav1{
+    background-color: lawngreen;
+    position: fixed;
+    width: 100%;
+    padding: 5%;
+}
+
+#nav2{
+    background-color: lightgreen;
+    position: relative;
+    top: 150px;
+    width: 100%;
+    padding: 5%;
+}
+
+#nav3{
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+    padding: 5%;
+}
