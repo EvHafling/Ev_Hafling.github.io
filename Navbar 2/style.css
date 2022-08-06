@@ -1,0 +1,33 @@
+body {
+    height: 1500px;
+    position: relative;
+}
+ul{
+    display: flex;
+    justify-content: right;
+}
+
+li{ 
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    color: olive;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(163, 200, 126);
+    width: 100%;
+    padding: 3%;
+}
+
+#Home{
+    margin: auto;
+}
+
+a:hover{
+    background-color: forestgreen;
+}
