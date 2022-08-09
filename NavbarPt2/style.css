@@ -1,0 +1,41 @@
+body {
+    height: 1500px;
+    position: relative;
+}
+ul{
+    display: flex;
+    padding: 10px;
+}
+
+li{ 
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(163, 200, 126);
+    padding: 3%;
+}
+
+#Home{
+    margin-right: auto;
+}
+
+a:hover{
+    background-color: forestgreen;
+    padding: 10px;
+}
+
+
+            /* media quarry */
+            
+@media only screen and (max-width: 768px) {
+    ul{
+    flex-direction: column;
+}
+}
+    
