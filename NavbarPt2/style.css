@@ -3,8 +3,17 @@ li{
     list-style: none;
 }
 
+#li1{
+    font-size: larger;
+    font-weight: bolder;
+}
+
 a {
     text-decoration: none;
+}
+
+ul{
+    display: flex;
 }
 
 nav{
@@ -19,7 +28,7 @@ nav{
 a:hover{
     background-color: forestgreen;
     padding: 10px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .dropdown-menu {
@@ -38,10 +47,17 @@ a:hover{
 
 .dropdown:hover .dropdown-menu {
     opacity: 1;
+    
 }
 
 .dropdown h3:hover {
  cursor: pointer;
+}
+
+p{
+    margin-left: 0.5cm;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
             /* media quarry */
