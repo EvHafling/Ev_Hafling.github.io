@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+
 #ROW1 {
 
 background-color:seagreen;
