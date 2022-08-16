@@ -1,0 +1,28 @@
+#div1{
+    background-color: rgb(183, 206, 244);
+
+}
+
+#form1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-image: url("blue.jpeg");
+}
+
+input:valid{
+    border: 2px;
+    border-style: solid;
+    border-color: limegreen;
+}
+
+input:invalid{
+    border: 2px;
+    border-style: solid;
+    border-color: crimson;
+}
