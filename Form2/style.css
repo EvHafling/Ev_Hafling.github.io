@@ -1,0 +1,21 @@
+body{
+    background-image: url("ai.jpg");
+    
+}
+
+#div1{
+background-color: rgb(179, 119, 60);
+padding: 1cm;
+}
+
+input:invalid{
+    border: 2px; border-color: crimson; border: solid; 
+}
+
+input:valid{
+    border: 2px; border-color: yellowgreen; border: solid;
+}
+
+#form1{
+   text-align: center;
+}

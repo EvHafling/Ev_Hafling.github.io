@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook</title>
 </head>
 <body>
+    <div id="div1">
+        <br>
     <h2>Facebook</h2>
-    <form>
-<label for="FirstName">First Name</label>
-<br>
-<input type="FirstName" name="firstname">
-<br>
-<label for="LastName">Last Name</label>
-<br>
-<input type="LastName" name="LastName">
-<br>
-<label for="Phone/Email">Enter Phone or Email</label>
-<br>
-<input type="Phone/Email" name="Phone/Email">
-<br>
-<label for="New_Password">New Password</label>
-<br>
-<input type="New_Password" name="New_Password">
-<br>
-</form>
-<br>
+    <form id="form1">
+        <label for="FirstName">First Name</label>
+            <input type="FirstName" name="firstname" 
+        required minlength="4" maxlength="15">
+        <label for="LastName">Last Name</label>
 
+            <input type="LastName" name="LastName"
+            required minlength="4" maxlength="15">
+        <br>
+        <br>
+        <label for="Phone/Email">Enter Phone or Email</label>
+        <br>
+            <input type="Phone/Email" name="Phone/Email" 
+            required minlength="8" maxlength="30">
+        <br>
+        <br>
+        <label for="New_Password">New Password</label>
+        <br>
+            <input type="New_Password" name="New_Password"
+            required minlength="8" maxlength="15">
+        <br>
+        <br>
+        Date of Birth
+        <br>
 <select name="Month">
     <option value="Option 1">Jan</option>
     <option value="Option 2">Feb</option>
@@ -46,16 +53,21 @@
     <option value="Option 3">2020</option>
     <option value="Option 4">2019</option>
 </select>
-<br>
-<br>
-<form>
+        <br>
+        <br>
     <label for="Gender">Gender</label>
-    <br>
+        <br>
             
     <input type="radio" name="firstname" value="select">Male<br>
     <input type="radio" name="firstname" value="select">Female<br>
     <input type="radio" name="firstname" value="select">Other<br>
-    <br>
-<input type="submit" name="button">
+        <br>
+    <input type="submit" name="button">
+        <br>
+        <br>
+        <br>
+    </form>
+    </div>
+
 </body>
 </html>
