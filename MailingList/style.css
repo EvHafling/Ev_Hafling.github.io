@@ -11,6 +11,8 @@ body{
 form{
     text-align: center;
     padding: 20px;
+    border: 2px;
+    border-style: solid;
 }
 
 h1{
