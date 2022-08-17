@@ -5,7 +5,8 @@ body{
 #div1{
     background-color: whitesmoke;
     width: 500px;
-    margin-left: 32%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form{
@@ -23,7 +24,7 @@ h1{
 p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: large;
 }
 
 input:valid{
@@ -36,4 +37,36 @@ input:invalid{
     border: 2px;
     border-style: solid;
     border-color: crimson;
+}
+
+input{
+    width: 7cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit:hover{
+    background-color: rgb(41, 163, 76);
+    transition-duration: 0.7s;
+}
+
+input:hover{
+    background-color: silver;
+    transition-duration: 00.7s;
+}
+
+#submit{
+    background-color: rgb(142, 142, 142);
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    width: 5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
 }
