@@ -4,6 +4,8 @@ body{
 
 #div1{
     background-color: whitesmoke;
+    width: 500px;
+    margin-left: 32%;
 }
 
 form{
