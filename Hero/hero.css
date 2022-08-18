@@ -4,7 +4,7 @@
 
 .site-hero{
 display: flex;
-background-image: url(./branding/liquid.jpg);
+background-image: url(./assets/branding/liquid.jpg);
 height: 80vh;
 background-size: cover;
 background-position: center;
@@ -51,9 +51,11 @@ br{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bold;
+    color: white;
 }
 
 #submit:hover{
-    background-color: rgb(41, 163, 76);
+    background-color: rgb(122, 41, 163);
     transition-duration: 0.7s;
+    
 }
