@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* hero */
+
+.site-hero{
+display: flex;
+background-image: url(./branding/);
+height: 80vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+box-shadow: 5px 5px rgb(0, 0, 0);
+justify-content: center;
+align-items: center;
+}
+
+.hero-text{
+font-family: 'Bebas Neue', cursive;
+font-style: italic;
+font-weight: bolder;
+color: rgb(72, 87, 187);
+font-size: 3em;
+text-align: center;
+}
+
+#div1{
+    background-color: white;
+    width: 1300px;
+    
+}
+
+#p1{
+font-size: 15px;
+padding: 2%;
+}
+
+#head2{
+    padding: 2%;
+}
+
+br{
+    text-decoration: line-through;
+}
+
+#submit{
+    background-color: rgb(142, 142, 142);
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    width: 5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: rgb(41, 163, 76);
+    transition-duration: 0.7s;
+}
