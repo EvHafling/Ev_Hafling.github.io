@@ -74,3 +74,26 @@ br{
 img{
     width: 100px;
 }
+
+.cont{
+margin-left: 28%;
+}
+
+.row{
+ 
+
+}
+
+
+
+.col{
+display: inline-block;
+justify-content: center;
+padding: 20px;
+
+}
+
+p{
+    text-align: center;
+    color: darkorange;
+}
