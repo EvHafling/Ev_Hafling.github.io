@@ -1,3 +1,14 @@
-h1{ 
-    color: yellowgreen;
+#room{
+    border: 5px rgb(175, 208, 186);
+    position: relative;
+}
+
+
+#ball{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:forestgreen;
+    border-radius: 50%;
+    position: relative;
 }
