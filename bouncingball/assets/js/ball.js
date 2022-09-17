@@ -40,7 +40,7 @@ if (ballX < 0 || ballX + ballWidth > roomWidth){
         if (ballY + ballHeight > roomHeight){
             ballY = roomHeight - ballHeight;
         }
-        ballXSpeed *= 0.99;
+        ballXSpeed *= 0.60;
         ballYSpeed *= -0.85;
     }
 
