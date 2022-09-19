@@ -1,3 +1,28 @@
+function convertToDaysLeft(milliseconds) {
+  return Math.floor(milliseconds / (1000 * 60 * 60 * 24));
+}
+
+function convertToHoursLeft(milliseconds) {
+  return Math.floor(
+    (milliseconds % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+}
+
+function convertToMinutesLeft(milliseconds) {
+  return Math.floor(
+    (milliseconds % (1000 * 60 * 60)) / (1000 * 60)
+  );
+}
+
+function convertToSecondsLeft(milliseconds) {
+  return Math.floor(
+    (milliseconds % (1000 * 60)) / 1000
+  );
+}
+
+function formatCountdownText(days, hours, minutes, seconds) {
+  return `${days}d ${hours}h ${minutes}m ${seconds}s left`;
+}
 
   let deadline = new Date("October 30, 2022 13:00:00");
   //Set variable to select the h1 that we need
@@ -14,8 +39,8 @@
   let minutesLeft = convertToMinutesLeft(timeLeft);
   let secondsLeft = convertToSecondsLeft(timeLeft);
 
-  countdown.innerHTML = formatCountdownText (DaysLeft, HoursLeft, 
-  MinutesLeft, SecondsLeft);
+  countdown.innerHTML = formatCountdownText (daysLeft, hoursLeft, 
+  minutesLeft, secondsLeft);
 
   }
 
