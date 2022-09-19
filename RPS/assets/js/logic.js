@@ -22,7 +22,7 @@ function getRandomPick () {
 
 }
 
-Function getResultText(computerPick, playerPick) {
+function getResultText(computerPick, playerPick) {
   const TIE = "It's a tie!"; 
   const WIN = "You win!"; 
   const LOSE = "You lose!";
