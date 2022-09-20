@@ -98,3 +98,4 @@ switch(myPick) {
 let result = document.getElementById("result");
 
 result.innerHTML = getResultText(myPick, yourPick);
+}
