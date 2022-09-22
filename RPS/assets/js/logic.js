@@ -106,12 +106,14 @@ game.onanimationend = function() {
 this.classList.remove("animate");
 }
 let closers = document.querySelectorAll(".closer"); 
-  for (let i = 0; i < closers.length; i++) {
-let closer = closers[i]; closer.onclick = function() {
+for (let i = 0; i < closers.length; i++) {
+  let closer = closers[i]; 
+  closer.onclick = function() {
+    
       var popupContainer = document.getElementById("popupContainer"); 
       popupContainer.classList.remove("popped"); 
       resetGame();
-    }
+    };
   }
 }
 
@@ -135,11 +137,12 @@ rockRight.classList.remove("selected");
 paperRight.classList.remove("selected"); 
 scissorsRight.classList.remove("selected");
 
-let result = document.getElementById("result"); result.innerHTML = "";
+let result = document.getElementById("result"); 
+result.innerHTML = "";
 
 }
 
-function popAndPlay (yourPick) {
+function popAndPlay(yourPick) {
 let popupContainer = document.getElementById("popupContainer"); 
 let game = document.getElementById("game");
 

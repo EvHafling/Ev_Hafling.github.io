@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: Verdana, sans-serif;
+    background-color:cadetblue;
   }
   /*****************************************************************************
     Game results CSS is found here
@@ -81,8 +82,8 @@ body {
   }
   /* Make the popup be on top of the overlay and style it */
   #popup {
-    background: white;
-    border-radius: 36px;
+    background: rgb(243, 137, 255);
+    border-radius: 60px;
     padding: 36px 24px 72px;
     position: relative;
     z-index: 15;
@@ -212,7 +213,7 @@ body {
   *****************************************************************************/
   /* Add spacing, sizing, and color, along with turning on transitions */
   button {
-    background: linear-gradient(to bottom, skyblue, teal);
+    background: linear-gradient(to bottom, rgb(235, 44, 117), rgb(86, 86, 185));
     border: 0;
     border-radius: 12px;
     padding: 12px;
