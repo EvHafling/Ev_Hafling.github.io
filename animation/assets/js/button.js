@@ -1,3 +1,0 @@
-
-
-let temperature = 76;
