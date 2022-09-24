@@ -1,10 +1,16 @@
-const btn = document.querySelector('button');
+gsap.from(".chucked",{
+duration: 5,
+stagger: 0.5,
+rotation: 720,
+x: -500,
+y: -500,
+ease: "elastic",
+});
 
-function random(number) {
-  return Math.floor(Math.random() * (number+1));
-}
+gsap.from(".headline" , {
+duration: 2.5,
+stagger: 0.3,
+opacity: 0,
+y:300,
 
-btn.addEventListener('click', function () {
-  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
-  document.body.style.backgroundColor = rndCol;
 });
