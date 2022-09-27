@@ -12,7 +12,7 @@ body{
 .column{
   width: 20%;
   display: flex;
-  flex-direction: column;
+  flex-directison: column;
   align-items: center;
   justify-content: center;
 }
